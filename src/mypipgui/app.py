@@ -5,8 +5,8 @@ from mylocale.TR import tr
 import os
 import sys
 import locale
-from mypypisearch import search
-results = search("toga")
+from mypypisearch.search import Search
+results = Search("requests")
 for result in results:
     print(result.name)
 
