@@ -5,6 +5,10 @@ from mylocale.TR import tr
 import os
 import sys
 import locale
+from mypypisearch import search
+results = search("toga")
+for result in results:
+    print(result.name)
 
 
 class MyPipGUI(toga.App):
