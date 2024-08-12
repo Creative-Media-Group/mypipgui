@@ -6,9 +6,9 @@ import os
 import sys
 import locale
 from mypypisearch.search import Search
-results = Search("requests")
+results = Search()
 for result in results:
-    print(result.name)
+    print(results.tabulated_result)
 
 
 class MyPipGUI(toga.App):
