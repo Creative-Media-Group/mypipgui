@@ -20,7 +20,7 @@ test_sources = [
     "tests",
 ]
 
-requires = ["mylocale"]
+requires = ["mylocale", "mypypisearch"]
 test_requires = [
     "pytest",
 ]
