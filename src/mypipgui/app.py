@@ -42,6 +42,8 @@ class MyPipGUI(toga.App):
             self.searchbtn.enabled = True
         else:
             self.searchbtn.enabled = False
+        if " " in self.module_input.value:
+            self.searchbtn.enabled = False
 
 
 def install(package, version=""):
