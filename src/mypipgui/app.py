@@ -5,11 +5,6 @@ from mylocale.TR import tr
 import os
 import sys
 import locale
-from mypypisearch import search
-
-results = search.Search(query="requests", page_from=1, page_to=1)
-for result in results:
-    print(results.tabulated_result)
 
 
 class MyPipGUI(toga.App):
